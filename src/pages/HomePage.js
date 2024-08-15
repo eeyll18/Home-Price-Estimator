@@ -67,7 +67,7 @@ export default function HomePage() {
       <div className="flex flex-col items-center justify-center min-h-screen">
         <div className="max-w-lg w-full bg-white p-8 rounded-lg shadow-lg">
           <h1 className="text-3xl font-bold mb-6 text-gray-800 text-center">
-            Home Price Estimator
+            House Price Estimator
           </h1>
 
           {status === "loading" && <p>Loading...</p>}

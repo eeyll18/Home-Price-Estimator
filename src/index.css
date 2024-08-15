@@ -2,11 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Özel arka plan resmi sınıfını tanımlayın */
 @layer utilities {
   .bg-custom-image {
-    background-image: url("./assets/images/background.jpeg"); /* veya "/assets/background.jpeg" */
+    background-image: url("./assets/images/background.jpeg"); 
     @apply bg-no-repeat bg-cover bg-center ;
-    
   }
 }
