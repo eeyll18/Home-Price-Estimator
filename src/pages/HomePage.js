@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useMemo } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import {
   fetchLocations,
   predictHomePrice,
@@ -10,7 +11,8 @@ import EstimatedPrice from "../components/EstimatedPrice";
 import Form from "../components/Form";
 import Alert from "../components/Alert";
 import "../index.css";
-import { Link } from "react-router-dom";
+
+
 
 export default function HomePage() {
   const dispatch = useDispatch();

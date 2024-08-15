@@ -51,3 +51,5 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository
    ```sh
    git clone https://github.com/your-username/home-price-prediction-app.git
+   npm install
+   npm start
